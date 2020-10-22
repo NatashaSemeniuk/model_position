@@ -1,0 +1,130 @@
+* {
+    font-family: "Source Sans Pro";
+    box-sizing: border-box;
+    color: #fff;
+}
+
+body {
+    background-color: #161d29;
+}
+
+.design_first {
+    font-size: 13px;
+    width: 230px;
+    height: 140px;
+    top: 10px;
+}
+
+.design_second {
+    font-size: 13px;
+    width: 230px;
+    height: 150px;
+    left: 200px;
+    top: 80px;
+}
+
+.design_third {
+    font-size: 13px;
+    width: 320px;
+    height: 200px;
+    left: 400px;
+}
+
+.design_fourth {
+    font-size: 10px;
+    width: 150px;
+    height: 85px;
+    top: 150px;
+    left: 700px;
+}
+
+.design_fifth {
+    font-size: 10px;
+    width: 150px;
+    height: 100px;
+    top: 30px;
+    left: 840px;
+}
+
+.design_sixth {
+    font-size: 13px;
+    width: 230px;
+    height: 140px;
+    top: 200px;
+    left: 40px;
+}
+
+.design_seventh {
+    font-size: 13px;
+    width: 230px;
+    height: 140px;
+    top: 200px;
+    left: 400px;
+}
+
+.design_eighth {
+    font-size: 10px;
+    width: 170px;
+    height: 90px;
+    top: 250px;
+    left: 800px;
+}
+
+.design_second:after, .design_third:after, .design_fourth:after, .design_sixth:after {
+    border-top-color: #146fb1;
+}
+
+.design_first, .design_fifth, .design_seventh, .design_eighth {
+    background-color: #6eaa1f;
+}
+
+.design_second, .design_third, .design_fourth, .design_sixth {
+    background-color: #146fb1;
+}
+
+.conteiner {
+    position: relative;
+    width: 1000px;
+    height: 600px;
+    margin: auto;
+}
+
+span, .upper {
+    text-transform: uppercase;
+}
+
+.speech-bubble {
+    display: flex;
+    background-color: #fff;
+    position: absolute;
+    opacity: 0.6;
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+}
+
+.speech-bubble:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 20%;
+    width: 0;
+    height: 0;
+    border: 23px solid transparent;
+    border-top-color: #6eaa1f;
+    border-bottom: 0;
+    border-left: 0;
+    margin-left: -11.5px;
+    margin-bottom: -23px;
+}
+
+.speech-bubble:hover {
+    opacity: 1;
+    z-index: 10;
+    transform: scale(1.1, 1.2);
+}
+
+.text {
+    padding: 0 10px 0px 5px;
+    margin: 0;
+}
